@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    tools:context="com.example.joemi.enghacks.MainActivity">
+
+        <Button
+            android:text="Choose from gallery"
+            android:layout_width="match_parent"
+            android:id="@+id/choose_from_gallery_button"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:backgroundTint="@android:color/holo_red_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/take_picture_button"
+            android:text="Take a picture"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:backgroundTint="@android:color/holo_purple" />
+
+</LinearLayout>
